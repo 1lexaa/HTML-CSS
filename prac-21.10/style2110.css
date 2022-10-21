@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+   
+}
+
+h3{
+    text-align: center;
+    background: darksalmon;
+    display: flex;
+    flex-direction: row;
+}
+
+b{
+    color: red;
+}
