@@ -1,0 +1,19 @@
+div {
+    width: 250px;
+    padding: 10px;
+    background: rgb(255, 139, 139);
+}
+
+ol {
+    margin: 0mm;
+    background: rgb(218, 94, 94);
+    mask-type: alpha;
+}
+
+li {
+    margin: 1px;
+    margin-right: 15mm;
+    margin-bottom: 2mm;
+    background: rgb(160, 17, 17);
+    color: white;
+}
