@@ -1,0 +1,32 @@
+.main_paragraf
+{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-size:auto;
+    text-align: center;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.container
+{
+   display: flex;
+   flex-wrap: wrap;
+}
+.item
+{
+    border-radius: 20px;
+    border-color: gray;
+    border-style: solid;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(228, 222, 222);
+}
+figcaption 
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-top: 10%;
+}
