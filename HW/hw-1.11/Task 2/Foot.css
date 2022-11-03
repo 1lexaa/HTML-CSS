@@ -1,0 +1,79 @@
+.footer-box
+{
+    padding: 30px;
+    background-color: rgb(42, 79, 110);
+}
+.main-container
+{
+    display: flex;
+    flex-direction: row;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+.items
+{
+    margin-bottom: -38%;
+}
+.items:hover
+{
+    text-decoration: 1px underline solid white;
+}
+.items2
+{
+    margin-bottom: -16%;
+}
+.items2:hover
+{
+    text-decoration: 1px underline solid white;
+}
+.container-icon
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 43px;
+    margin-left: 43px;
+}
+.text-style
+{
+    color: white;
+}
+.img-style-fb
+{
+    background-image: url(SocialNetwork/fb_gray.png);
+    width: 64px;
+    height: 64px;
+}
+.img-style-fb:hover
+{
+    background: url(SocialNetwork/fb.png);
+}
+.img-style-inst
+{
+    background-image: url(SocialNetwork/insta_gray.png);
+    width: 64px;
+    height: 64px;
+}
+.img-style-inst:hover
+{
+    background: url(SocialNetwork/insta.png);
+}
+.img-style-yotub
+{
+    background-image: url(SocialNetwork/youtube_gray.png);
+    width: 64px;
+    height: 64px;
+}
+.img-style-yotub:hover
+{
+    background: url(SocialNetwork/youtube.png);
+}
+.footer-botton
+{
+    text-align: center;
+    color: white;
+}
