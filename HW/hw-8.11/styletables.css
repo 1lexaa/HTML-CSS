@@ -1,0 +1,39 @@
+.container
+{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+.mtb
+{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.table
+{
+    width: 100%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    background-color: rgb(233, 233, 233);
+    border-collapse: collapse;
+}
+.headers
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: rgb(173, 216, 230);
+}
+.table th, .table td
+{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table tr:nth-child(even)
+{
+    background-color: rgb(245, 245, 245);
+}
+.table-responsive
+{
+    overflow-x: auto;
+    overflow-y: auto;
+}
