@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(173, 216, 230);
+}
+
+.news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.news-item{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start
+}
+
+.item{
+    width: 350px;
+    margin-top: 15px;
+    border: 1 solid black;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+h5{
+    font-size: 17px;
+    font-family: Arial Narrow, sans-serif;
+}
+
+p{
+    font-family: Arial Narrow, sans-serif;
+}

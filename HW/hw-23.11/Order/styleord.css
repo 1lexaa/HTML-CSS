@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main_panel{
+    margin-left: 200px;
+    margin-top: 30px;
+    max-width: 740px;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255, 1);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    overflow-y:auto;
+    overflow: auto;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.title img{
+    height: 100px;
+    width: 100px;
+}
+
+.checkout_panel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    float:left;
+}
+
+.panel_data{
+    display: flex;
+    flex-direction: column;
+    margin-left: 160px;
+}
+
+label{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+input{
+    width: 300px;
+    margin-left: -140px;
+    margin-top: 9px;
+}
+
+.sushi_panel{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.panel_width{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.panel_width_item{
+    margin:10px;
+}
+
+.panel_width img{
+    width: 150px;
+    height: 130px;
+    border-radius: 15px;
+}
+
+.panel_width_item:hover{
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.coments{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    margin-bottom: 20PX;
+}
+
+.coments p{
+    font-weight: 700;
+}
+
+.coments input{
+    border-radius: 10px;
+    margin-left: 20PX;
+    width: 670PX;
+    height: 100PX;
+}
